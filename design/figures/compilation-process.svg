@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100">
     <defs>
         <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6">
             <path d="M 0 0 L 10 5 L 0 10 z" />
         </marker>
     </defs>
-    <style><![CDATA[
+    <style>
         rect, line { fill: none; stroke: black; stroke-width: 2; }
-        text { text-align: center; text-anchor: middle; }
-    ]]>    </style>
+        text { font: 16pt/1.2 sans-serif; text-align: center;
+            text-anchor: middle; transform:translateY(0.5ex); }
+    </style>
 
     <rect x="1" y="1" width="198" height="98" />
     <text x="100" y="50">Syntax Tree</text>
