@@ -6,7 +6,7 @@
     </defs>
     <style>
         rect, line { fill: none; stroke: black; stroke-width: 2; }
-        text { font: 16pt/1.2 sans-serif; text-align: center;
+        text { font: 16px/1.2 sans-serif; text-align: center;
             text-anchor: middle; transform:translateY(0.5ex); }
     </style>
 
